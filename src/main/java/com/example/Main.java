@@ -2,7 +2,7 @@ package com.example;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -10,16 +10,11 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) {
 
-        Button button = new Button("Hello");
-
-        Scene scene = new Scene(button, 300, 200);
-
-        stage.setTitle("My First JavaFX App");
+        // ТУТ ТИ ПИШЕШ КОД
+         Pane pane = new Pane();
+         Scene scene = new Scene(pane,500, 200);
         stage.setScene(scene);
+        stage.setTitle("ddifjdji");
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch();
     }
 }
